@@ -85,9 +85,9 @@ const pokeFunction = async () => {
         }]
     },
     options: {
-        indexAxis: 'x',
+        indexAxis: 'y',
         scales: {
-            y: {display: false,
+            y: {display: true,
                 beginAtZero: true
                 [{
       gridLines: {
@@ -96,7 +96,7 @@ const pokeFunction = async () => {
     }]
             },
          x:{
-             display: true,
+             display: false,
          }
         },
          plugins:{
