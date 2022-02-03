@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeFetch</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="input-container">
+    <h1 class="title">Pokedex!</h1><span class="pokemon-icon material-icons" id="pokemon-logo">
+        catching_pokemon
+        </span>
+    <br>
+    <input type="text" class="search" id="search" placeholder="search pokemon" list="pokemon">
+</div>
+    <div id="container" class="container">
+        
+        <h2 class="name"></h2>
+        <div id="image"></div>
+        <p class="abilities-title"></p>
+
+        <ul>
+        </ul>
+        
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

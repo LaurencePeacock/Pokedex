@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+}
+body{
+    margin: 10vh auto;
+    width: 60%;
+}
+h1{
+    font-family: 'Pokemon Solid', sans-serif;
+    letter-spacing: 0.1em;
+}
+h2{
+   font-family:  'Roboto', sans-serif;
+   font-size: 2em;
+   letter-spacing: 0.03em;
+   padding-bottom: 2vh;
+}
+.abilities-title{
+    font-family:  'Roboto', sans-serif;
+    font-size: 1.3em;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-weight: 500;
+}
+.material-icons{
+    font-size: 60px;
+}
+#pokemon-logo{
+    font-size: 80px;
+}
+
+input{
+    padding: 1em;
+    border-radius: 0.3em;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 5vh;
+}
+  #image{
+      min-width: 5rem;
+      min-height: 5rem;
+      background-repeat: no-repeat;
+  background-size: cover;
+      
+  }
+  #submit{
+      //display: none;
+  }
+  .container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      border: 2px solid black;
+      border-radius: .8em;
+      padding: 4em 2em ;
+      max-height: 90vh;
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+  }
+  a{
+      text-decoration: none;
+      color: black;
+      text-align: center;
+      font-family:  'Roboto', sans-serif;
+        font-size: 1em;
+        padding: 0.2em;
+        
+  }
